@@ -3,5 +3,6 @@ name = "stdt"
 version = "0.0.1"
 edition = "2024"
 description = "Standard tools to speed up your development workflow"
+license = "MIT"
 
 [dependencies]
