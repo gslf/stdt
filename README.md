@@ -6,13 +6,15 @@
 /____  > |__| \____ | |__|  
      \/            \/       
 ```
-Minimal, zero-dependency standard tools for Rust, 
+Minimal, zero-dependency standard tools for Rust.|
+
+[READ THE DOCS](https://docs.rs/stdt/latest/stdt/)
 
 ## Available Tools
 ### 🛠️ Utils
 - **utils::clear_cli** Minimal console clearing with raw ANSI escape sequences.
 - **utils::type_of** Find out what a value’s type is.
-
+- **utils::devops** Load enviroment variables from an .env file.
 
 
 ## 🎯 Philosophy
