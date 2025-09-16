@@ -1,19 +1,17 @@
-```          __      .___ __   
+```
+          __      .___ __   
   _______/  |_  __| _//  |_ 
  /  ___/\   __\/ __ |\   __\
  \___ \  |  | / /_/ | |  |  
 /____  > |__| \____ | |__|  
-     \/            \/
+     \/            \/       
 ```
 Minimal, zero-dependency standard tools for Rust, 
 
 ## Available Tools
 ### 🛠️ Utils
-#### utils::clear_cli
-Minimal console clearing with raw ANSI escape sequences.
-No crates, no hacks — just bytes on the wire.
-#### utils::type_of
-Find out what a value’s type really is — no guessing.
+- **utils::clear_cli** Minimal console clearing with raw ANSI escape sequences.
+- **utils::type_of** Find out what a value’s type is.
 
 
 
@@ -23,7 +21,6 @@ Find out what a value’s type really is — no guessing.
 - Small, composable building blocks
 
 ## 📦 Installation
-
 Add to your Cargo.toml, or copy/paste individual files from utils/ if you want ultimate minimalism.
 
 ```toml
