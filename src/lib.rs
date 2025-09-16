@@ -1,6 +1,3 @@
-#![forbid(unsafe_code)]
-
-
 /// # Common Utilities
 ///
 /// This modules provides a collection of common utility functions and helpers
