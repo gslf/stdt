@@ -5,3 +5,8 @@
 
 pub mod utils;
 
+
+/// # JSON
+///
+/// A minimal, zero-dependency JSON parsing and serialization library.
+pub mod json;

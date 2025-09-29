@@ -1,6 +1,6 @@
 [package]
 name = "stdt"
-version = "0.0.3"
+version = "0.0.4"
 edition = "2024"
 description = "Minimal, zero-dependency standard tools to speed up your development workflow"
 license = "MIT"
