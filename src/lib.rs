@@ -10,3 +10,8 @@ pub mod utils;
 ///
 /// A minimal, zero-dependency JSON parsing and serialization library.
 pub mod json;
+
+/// # Date
+///
+/// Tools for date management
+pub mod date;

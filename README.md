@@ -13,6 +13,7 @@ Minimal, zero-dependency standard tools for Rust.|
 ## Available Tools
 ### 🛠️ stdt::utils
 A lightweight collection of everyday coding utilities. Simple, dependency-free helpers to make common tasks faster and cleaner. These are the available functions:
+
 - **stdt::utils::clear_cli** Console clearing with raw ANSI escape sequences.
 - **stdt::utils::type_of** Find out what a value’s type is. 
 - **stdt::utils::dotenv** Load enviroment variables from an .env file. 
@@ -25,8 +26,16 @@ A minimal yet complete implementation of JSON handling in. It defines a Value ty
 
 [Read the docs.](https://docs.rs/stdt/latest/stdt/json/index.html)
 
+### 📄 stdt::date
+Lightweight date management that support this formats:
+
+- **stdt::date::iso8601** For ISO 8601 standard.
+- **stdt::date::rcf3339** Fror RCF 3339 standard.
+
+[Read the docs.](https://docs.rs/stdt/latest/stdt/date/index.html)
 
 ## 🎯 Philosophy
+
 - Zero dependencies
 - Self-explanatory code with inline docs
 - Small, composable building blocks
@@ -36,7 +45,7 @@ Add to your Cargo.toml, or copy/paste individual files if you want ultimate mini
 
 ```toml
 [dependencies]
-stdt = "0.0.4"
+stdt = "0.0.6"
 ```
 
 
