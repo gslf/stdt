@@ -31,6 +31,7 @@ Lightweight date management that support this formats:
 
 - **stdt::date::iso8601** For ISO 8601 standard.
 - **stdt::date::rcf3339** Fror RCF 3339 standard.
+- **stdt::date::posix** For posix timestamp.
 
 [Read the docs.](https://docs.rs/stdt/latest/stdt/date/index.html)
 
